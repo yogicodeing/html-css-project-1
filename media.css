@@ -1,0 +1,33 @@
+
+@media all and (max-width :600px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+    }
+    .header{
+        position:fixed;
+        width:390px;
+        background-color: rgb(54,50,50);
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        
+    }
+     .header span{
+        color: green;
+    }
+    .header a{
+       text-decoration: none;
+       background-color: rgb(51, 235, 51);
+       color: white;
+       padding-left:7px;
+       padding-right: 7px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       font-size:12px;
+       border-radius: 5px;
+       margin-right:50px;
+    }
+    
+}
